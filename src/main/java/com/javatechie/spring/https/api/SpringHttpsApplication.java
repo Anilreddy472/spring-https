@@ -11,6 +11,7 @@ public class SpringHttpsApplication {
 
 	@GetMapping("/getData")
 	public String getMessage() {
+		//this is a test comment added by me
 		return "Accessed by HTTPS protocol";
 	}
 
